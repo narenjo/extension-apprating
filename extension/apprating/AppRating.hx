@@ -13,7 +13,7 @@ class AppRating {
 
 	private static inline var IOS_LINK:String = 'itms://itunes.apple.com/us/app/apple-store/id';
 
-	public static function redirectToStore(appId:String):Void {
+	public static function rateApp(?appId:String):Void {
 		#if ios
 		Lib.getURL(new URLRequest(IOS_LINK + appId));
 		#end

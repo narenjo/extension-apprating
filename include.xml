@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension>
     <section if="android">
-        <dependency name="facebook-sdk" path="dependencies/android/apprating" />
+        <dependency name="apprating" path="dependencies/android/apprating" />
 		<android extension="apprating.AppRating" />
     </section>
 </extension>
