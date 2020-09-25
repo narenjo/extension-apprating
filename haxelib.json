@@ -1,0 +1,19 @@
+{
+  "name": "extension-apprating",
+  "url": "https://github.com/narenjo/extension-apprating",
+  "license": "GPL",
+  "contributors": [
+    "vincent"
+  ],
+  "tags": [
+    "rate",
+    "api",
+    "ios",
+    "android",
+    "apprating",
+    "openfl"
+  ],
+  "releasenote": "first release",
+  "description": "Extension that let you open store of a given id app on android and ios",
+  "version": "1.0.0"
+}

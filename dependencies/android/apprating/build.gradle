@@ -1,0 +1,17 @@
+apply plugin: 'com.android.library'
+
+android {
+    sourceSets {
+        main {
+            java.srcDirs = ['src']
+        }
+    }
+    compileSdkVersion Integer.parseInt(project.ANDROID_BUILD_SDK_VERSION)
+    buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION
+}
+
+dependencies {
+    // This dependency is downloaded from the Google’s Maven repository.
+	// So, make sure you also include that repository in your project's build.gradle file.
+	implementation 'com.google.android.play:core:1.8.0'
+}
