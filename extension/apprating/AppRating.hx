@@ -18,7 +18,8 @@ class AppRating {
 		Lib.getURL(new URLRequest(IOS_LINK + appId));
 		#end
 		#if android
-		JNI.createStaticMethod("apprating/AppRating", "launchReviewFlow", "()V");
+		var fn = JNI.createStaticMethod("apprating/AppRating", "launchReviewFlow", "()V");
+		fn();
 		#end
 	}
 }
